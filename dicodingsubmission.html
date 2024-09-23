@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DicodingSubmission</title>
+    <link rel="stylesheet" href="./css/styledicoding.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="/js/dicoding.js" defer></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <img src="/img/png-chrome-dinosaur2.png"class="dino" alt="dinosaurus">
+    <button id="theme-switch" >
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+        <div id="judul" class="jumbotron">
+        <ul>
+            <li><a href="#rumah" class="decoration-none">Home</a></li>
+            <li><a href="#tentang" class="decoration-none">About</a></li>
+            <li><a href="#proyek" class="decoration-none">Project</a></li>
+        </ul>
+    </nav>
+</div>
+</header>
+<main>
+    <div id="content">
+        <article id="tentang" class="card">
+            <h2 class="pixeltext">About</h2>
+            <p>Nama saya Ravi Akvarian Kusuma Putra. Saat ini, saya berkuliah di UIN Sunan Kalijaga, Yogyakarta. Saya memiliki minat besar dalam teknologi, khususnya pemrograman.</p>
+            <h2 class="pixeltext">Pendidikan</h2>
+            <ul>
+                <li>SD Isriati Semarang</li>
+                <li>SMPN 15 Semarang</li>
+                <li>MAN 2 Kota Semarang</li>
+                <li>MAN 1 Sleman</li>
+            </ul>
+            <h2 class="pixeltext">Minat</h2>
+            <p>Saya suka belajar hal baru, terutama yang berkaitan dengan teknologi seperti pemrograman. Selain itu, saya juga tertarik dalam membaca buku dan mengikuti perkembangan dunia teknologi.</p>
+        </article>
+            <h2 class="pixeltext">Project</h2>
+            <ul>
+                <li>Blog sejarah Turki Utsmani (sedang berjalan)</li>
+                <li>Ui Ticket Bioskop Mobile
+                    <div class="slider">
+                    <div class="slides">
+                <img src="ui1.png" alt="image#1">
+                <img src="ui2.png" alt="image#2">
+                <img src="ui3.png" alt="image#3">
+                <button class="prev"onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+                </li>
+            </ul>
+        </article>
+        </div>
+        </div>
+        </div>
+    <aside class="card">
+        <article class="profile">
+            <header>
+                <h2 class="pixeltext">Biodata</h2>
+                <figure>
+                    <img src="22106050030.jpg" alt="saya" class="profil-image">
+                </figure>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                        <td>Ravi Akvarian Kusuma Putra</td>
+                    </tr>
+                    <tr>
+                        <th>Tanggal Lahir</th>
+                        <td>6 Juni 2004</td>
+                    </tr>
+                    <tr>
+                        <th>Universitas</th>
+                        <td>UIN Sunan Kalijaga</td>
+                    </tr>
+                    <tr>
+                        <th>Hobi</th>
+                        <td>Membaca buku, mencoba hal baru, dan tertarik kepada hal-hal berbau teknologi</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </aside>
+</main>
+<footer>
+    <div class="social-links">
+    <p>
+        <a href="https://wa.me/62890458441"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/ravi-akvarian"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.twitter.com/Jd49447944"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/Real narator"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/raviakvariankp"><i class="fab fa-instagram"></i></a>
+
+    </p>
+    </div>
+</footer>
+</body>
+</html>
+
